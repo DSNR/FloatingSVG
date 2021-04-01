@@ -1,4 +1,4 @@
-#Floating animated svg|img|word from array of words
+# Floating animated svg|img|word from array of words
 #### , fully controllable and customisable at column, row, global and distinct elements
 ####  , from within the DOM
 ### //  CSS3 JQuery HTML JS
