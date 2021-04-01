@@ -1,0 +1,61 @@
+.eqi-container {
+    width: 120vw;
+    /* border: 10px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.eqi-container div {
+    width: 2em;
+    height: 5em;
+    /* background: red; */
+    padding: 2em;
+}
+
+.eqi-container2 {
+    width: 120vw;
+    margin-left: 4.5vw;
+    /* border: 10px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.eqi-container2 div {
+    width: 2em;
+    height: 5em;
+    /* background: red; */
+}
+
+.eqi-container*>div>svg {
+    /*  width: 45vw; */
+}
+
+.eqi-container {
+    animation: move 22s infinite;
+    animation-direction: alternate;
+}
+
+.eqi-container2 {
+    animation: move2 22s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(0, 0vh);
+    }
+
+    100% {
+        transform: translate(4vw, -40vh);
+    }
+}
+
+@keyframes move2 {
+    0% {
+        transform: translate(0, 0vh);
+    }
+
+    100% {
+        transform: translate(-4vw, -40vh);
+    }
+}
